@@ -712,9 +712,16 @@ export default function Portfolio() {
                 </svg>
                 <span className="font-bold text-white">Devraj Portfolio</span>
               </div>
-              <div className="text-sm text-white/70">
-                © {new Date().getFullYear()} Devraj. All rights reserved.
-              </div>
+              <p className="footer-company-name">
+          &copy; {new Date().getFullYear()} Designed by{" "}
+          <a href="https://html.design/" target="_blank" rel="noreferrer" className="footer-link">
+  <span style={{ color: "	#BF40BF" }}> <a href="https://www.linkedin.com/in/devraj-pandey-462832259/" className="footer-link">WithDevRaj</a></span>
+  <span style={{ color: "#bbb" }}> & </span>
+  <span style={{ color: "	#BF40BF" }}> <a href="https://www.linkedin.com/in/quantum-coders-993aaa344/" className="footer-link">QuantumCoders</a></span>
+ 
+</a>
+          . All Rights Reserved.
+        </p>
               <div className="flex space-x-4 mt-4 md:mt-0">
                 <a href="https://github.com/Devraj124" className="text-white/70 hover:text-purple-400">
                   <Github size={20} />
