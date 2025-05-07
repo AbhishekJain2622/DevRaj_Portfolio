@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
   title: "Devraj Portfolio",
-  description: "Creative Full Stack Developer Portfolio",
-  generator: "v0.dev",
+  description: "Creative Full Stack Developer Portfolio For Personal & Professional Uses",
+  generator: "DevRaj_Production",
   icons: {
     icon: "/02.png", // PNG file inside public folder
   },
